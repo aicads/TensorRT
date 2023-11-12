@@ -12,6 +12,9 @@ Need enterprise support? NVIDIA global support is available for TensorRT with th
 
 Join the [TensorRT and Triton community](https://www.nvidia.com/en-us/deep-learning-ai/triton-tensorrt-newsletter/) and stay current on the latest product updates, bug fixes, content, best practices, and more.
 
+## New plugin (Important)
+- [EfficientNMSCustom_TRT](./plugin/efficientNMSCustomPlugin/): Same Efficient NMS, but return boxes indices for extract valid landmark indices. (for Face Detection)
+
 # Prebuilt TensorRT Python Package
 We provide the TensorRT Python package for an easy installation. \
 To install:
